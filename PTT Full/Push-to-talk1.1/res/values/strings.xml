@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="rejestracja">rejestracja</string>
+    <string name="logowanie1">logowanie </string>
+    <string name="parametry">addres ip</string>
+    <string name="status">status wifi</string>
+    <string name="wprowadz_login">wprowadz login: </string>
+    <string name="wprowadz_haslo">wprowadz haslo: </string>
+    <string name="potwierdz">potwierdz haslo</string>
+    <string name="lista_urzadzen">Historia logowan</string>
+    <string name="lista_uzytkownikow">Lista uzytkownikow w bazie danych</string>
+    <string name="polacz">Polacz</string>
+    <string name="status_polaczenia">Status: laczenie, polaczone, rozlaczone</string>
+    <string name="gdy_polaczono">Gdy polaczono,  aby nadac przytrzymaj przycisk ponizej</string>
+    <string name="nadaj">nadaj</string>
+    <string name="grupy">Dostepna wolna grupa</string>
+    <string name="numer_grupy">numer</string>
+    <string name="wprowadz_numer">wprowadz numer grupy i kliknij jeden z poniższych przycisków</string>
+    <string name="lista_uzytkownikow_button">Historia logowan</string>
+    <string name="usersFromRemoteDB_string">Uzytkownicy:</string><string name="title_activity_users_list">UsersList</string>
+    <string name="wolny_port">wolny port</string>
+    <string name="adress_urzadzenia">Wprowadz adres ip drugiego urządzenia i wcisnij Polacz</string>
+    
+
+</resources>

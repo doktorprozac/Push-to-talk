@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<polaczenia>
+    <connection>
+        <login>Kowalski</login>
+        <data>0000-00-00</data>
+        <klienci>szyba, szajsung </klienci>
+    </connection>
+    <connection>
+        <login>Kowalskie</login>
+        <data>0000-00-01</data>
+        <klienci>szybax, szajsungx, mujec </klienci>
+    </connection>
+    
+    <connection>
+        <login>Kowalskia</login>
+        <data>0000-00-02</data>
+        <klienci>szybas, szajsungs </klienci>
+    </connection>
+</polaczenia>

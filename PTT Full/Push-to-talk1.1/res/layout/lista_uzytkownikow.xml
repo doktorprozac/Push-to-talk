@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   <Button android:id="@+id/logoutButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:text="Wyloguj" /> 
+  <TextView android:id="@+id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_toRightOf="@+id/textView1" android:text="TextView" /> 
+  <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:text="Jestes zalogowany jako:" /> 
+  <TextView android:id="@+id/usersFromRemoteDB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_below="@+id/textView1" android:text="@string/usersFromRemoteDB_string" /> 
+  <Button android:id="@+id/odswiez" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/logoutButton" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:text="odswiez" /> 
+
+  <ListView
+      android:id="@+id/listView1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/odswiez"
+      android:layout_alignParentLeft="true"
+      android:layout_alignRight="@+id/textView1"
+      android:layout_below="@+id/usersFromRemoteDB" />
+
+  <ListView
+      android:id="@+id/listView2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/odswiez"
+      android:layout_alignLeft="@+id/status"
+      android:layout_below="@+id/usersFromRemoteDB" >
+
+  </ListView>
+ 
+  </RelativeLayout>
